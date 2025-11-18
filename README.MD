@@ -1,22 +1,53 @@
 
-1) What is the difference between var, let, and const?
-ANSWER: we can re-declare and update var .
-we can't re-declare let.
-const block scoped. if we declare a array or object in const, we can modify elements of arrays or objects.
+GreenEarth 🌱✨
+🔗 Live Demo: https://greenearth-82r.pages.dev/
+
+📘 Project Overview
+GreenEarth is a clean and minimal greenery-themed web experience where users can explore different plants, learn about them, and purchase the ones they love.
+The project focuses on simplicity, modern UI, and a refreshing nature-inspired feel. While it uses the same core technologies as your other project, this one does not use Recharts.
+
+🛠️ Technologies Used
+
+React — Component-based UI
+Tailwind CSS — Fast, utility-first styling
+DaisyUI — Pre-built UI components
+React Icons — Additional visual enhancement
+
+✨ Main Features
+Browse a variety of beautiful plants 🌿
+View plant details such as name, type, and price
+Add plants to the cart / buy plants
+Clean, aesthetic, greenery-inspired design
+Fully responsive and fast user experience
+Easy-to-navigate UI with React Router
+
+📦 Dependencies
+
+The project includes the following dependencies:
+
+react
+tailwindcss
+react-icons
+
+💻 How to Run Locally
+Make sure Node.js is installed.
+
+Clone the project:
+
+git clone https://github.com/your-username/GreenEarth.git
+cd GreenEarth
 
 
-2) What is the difference between map(), forEach(), and filter()?
-ANSWER: map() create a new array and return a value .
-foreach() callback each element does not return any value and does not create a new array.
-filter() create a new array containing those elements which satisfy given condition.
-3) What are arrow functions in ES6?
+Install dependencies:
 
-ANSWER:const add =(x,y) => x+y;
-const multiply = num => num * 2;
-these are the arrow functions
-4) How does destructuring assignment work in ES6?
-Answer: destructuring assignment let us to take values from array or objects for assign them as variable.
+npm install
 
 
-5) Explain template literals in ES6. How are they different from string concatenation?
-ANSWER: template literals let us to write multiline string without using \n . for this we have to use backtick and also by using ${}, we can tag values.
+Start the development server:
+
+npm run dev
+
+
+
+Open your browser:
+http://localhost:3000
